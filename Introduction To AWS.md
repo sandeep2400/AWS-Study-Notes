@@ -9,10 +9,9 @@ And Jeff Bezos, the smartest businessman of his time, saw the value in opening t
 
 __AWS Regions__
 Lets start with the where AWS is physically located. AWS has data centres (Regions) spread across the globe and availability zones in each region. 
-
-![AWS Regions][/images/aws_regions-1.png]
-Image 1: Map of AWS Regions as of April 2021. (Copyright Amazon.com)
-Source:[Now Open – Third Availability Zone in the AWS Canada (Central) Region | AWS News Blog](https://aws.amazon.com/blogs/aws/now-open-third-availability-zone-in-the-aws-canada-central-region/)
+![AWS Regions](/images/aws_regions-1.png)
+_Image 1: Map of AWS Regions as of April 2021. (Copyright Amazon.com)_
+_Source:[Now Open – Third Availability Zone in the AWS Canada (Central) Region | AWS News Blog](https://aws.amazon.com/blogs/aws/now-open-third-availability-zone-in-the-aws-canada-central-region/)_
 
 __Availability Zones:__
 Each Region has more than one Availability Zone. Each zone is physically isolated from the rest. They all have independent power, cooling and independent security. Their exact locations are kept secret. 
