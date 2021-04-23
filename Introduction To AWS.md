@@ -70,3 +70,42 @@ To assign a user cetain permissions:
 * first, make a Group 
 * then assign permissions to the group using polciy documents. 
 * add users to the groups. Permissions applied to the group are automatically assinged to the user. 
+
+## Compute
+### EC2: Compute Cloud 
+Rent Virtual Servers with different sizes, processers and speeds. Pay for these instances by the hour or second with no long term committments. This flexibiltiy decreases costs by orders of magnitude and can be gamechanging for some industries.
+
+### Containers
+Lets you create a package of your program along with all the code it needs to produce an image that can be run in any computer in the world. 
+Once created, you can deploy your container anywhere. 
+
+### Lambda 
+Serverless comoute service which runs your program in response to events. The code will run in scratchpad containers that are destroyed afterwards. All you have to do is upload your code, specifiy your triggers and the code will run when the code is triggered. You are also charged by the millisecond. 
+
+
+## Storage
+There are 3 types of storage: File(directory structure like on a laptop), Block(files are split into chunks of data of equal size and then stored in blocks - commonly used in servers, and dataabase systems) and Object Storage(files are stored in objects, flat memory model and given a unique id - present the id and it will give you the file.)
+AWS has SFS for file storage, EBS for block storage, and S3 for object storgae.
+
+### S3: Simple Storage Service
+S3 has a very high reliability. Industry leading durability. S3 has different storage classes. S3 Glacier is for files that are not required immediately. 
+
+### AWS EFS: 
+Filesystem on the cloud, very durable. and has different storage classes. 
+
+### AWS Storage Gateway
+Access to Amazon storage on prem. 
+
+## Databases
+Has engines for relational, key-value, in-memory, document, graph series and time series. 
+Relational (Aurora - MYSQL and Postgres), RDS(Relational), Key-value (dynamodb - nosql), im-memory(elasticache), Document Database (Mongo)
+
+### RDS Relational Database Service
+Engines for mysql, mariadb, mssql, oracle . Easy to set up, scalable, available, automated backups, automatic host replacement. 
+
+### DynamoDB
+NoSQl Database. Key-valye document
+
+## Networking
+
+
