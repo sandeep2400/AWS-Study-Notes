@@ -126,6 +126,31 @@ DNS service that has extra features.
 * Failover policy: Can point to another loction if the primary target fails .
 * Multi Value Answer Policy: Replies with muiltiple healthy values for the domain. Checks if the ip addresses are up. 
 
-### 
+## Machine Learning
+### Rekognition
+Analyze Images and Videos with ML 
 
+### Deep Racer
+Self Driving Car to teach reinforcement learning. 
+We create a model, give it an algorithm,a reward function and  abunch of data from the car
+
+### CodeGuru
+AI based Code Review. 
+Profiler: Analyzes code and identifies expensive lines. 
+CodeGuru Reviewer: Identify issues and bugs in your repos, identifies deviations from Best practives. 
+
+## Some Case Studies on Using AWS
+
+### Simplest website
+A site hosted on an EC2 server on a single VPC in a single availability zone. 
+
+A basic blog can be on EC2 on a VPC and EC2 connects to AN RDS db. 
+
+A load balanced blog where 2 ec2 servers read/write to an RDS DB, but the servers are load balanced with an ELB.
+
+We can also add an ELasticache and the servers will read the cache before reading the db. 
+
+We can also add CDN (CloudFront) to speeden up the site. 
+
+We can also add multiple 2 availabilty zones which will split traffic between AZs
 
