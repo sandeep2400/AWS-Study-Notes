@@ -108,4 +108,24 @@ NoSQl Database. Key-valye document
 
 ## Networking
 
+### VPC is a gated private community for your AWS resources. You can add NAT gateways, Internet gateways and Network Access Control Lists to connect to the internet and control who can access resources inside the VPC. 
+
+### CloudFront
+CDN that can server your website, video, data and applications to your customers with low latency and high transfer speeds. Use Edge Locations, using multiple points of presence across the globe. Cloudfront will server the website from the nearest edge location. It alwasy checks if it is serving the latest version of the site. If not, it will reset the cache. 
+
+Cloudfront also protects the site from DDOS attacks. AWS is better prepared for DDOS attacks than you. CDNs can handle traffic spikes if your site sees a surge in traffic. 
+
+Cloudfront also has Lambda@Edge so that you can run Lambda code at the edge. Realtime metric and logging. Cost effective and pay as you go pricing. 
+
+### Route 53
+DNS service that has extra features. 
+* Simple Routing Policy: Basic functionality of returning IP address for a domain 
+* Weighted Policy: provide multiple IP addresses to spread your load. (0 to 100). so 50-50 will split the traffic. 
+* GEo location policy: Geo loc based policty. 
+* Latency Policy: Latency based serving. 
+* Failover policy: Can point to another loction if the primary target fails .
+* Multi Value Answer Policy: Replies with muiltiple healthy values for the domain. Checks if the ip addresses are up. 
+
+### 
+
 
